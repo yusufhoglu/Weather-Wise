@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WeatherWise</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="cloud-image ">
+        <img id = "cloud1" class = "cloud first-cloud" src="https://cdn.pixabay.com/photo/2014/04/02/10/17/cloud-303368_960_720.png">
+        <img id = "cloud2" class = "cloud second-cloud" src="https://cdn.pixabay.com/photo/2014/04/02/10/17/cloud-303368_960_720.png">
+        <img id = "cloud3" class = "cloud third-cloud" src="https://cdn.pixabay.com/photo/2014/04/02/10/17/cloud-303368_960_720.png">
+    </div>
+
+    <div id="searchButton">
+        <form id="cityForm">
+            <input type="text" id="cityName" class="big-input" placeholder="Search City" name="cityName" autocomplete="off">
+        </form>
+    </div>
+
+    <div id="weatherInfo" >
+        <p id="temp"></p>
+        <p id="description"></p>
+        <img id="icon" src="" alt="">
+    </div>
+
+    <div class="show-side"></div>
+
+    <div class="signup"> 
+        <a href="/signup" id="style-2" data-replace="Sign Up" ><span>Sign Up</span></a></p>
+    </div>
+
+
+    <!-- js and jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="/css/index.js" charset="utf-8"></script>
+</body>
+</html>

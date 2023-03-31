@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <title> Sign Up </title>
+
+</head>
+
+<body>
+
+    <div class="backside">
+        
+        <h2 class="log in">SIGNUP</h2>
+        <p class="log description">Please enter your e-mail adress!</p>
+        <p class="log description2">Please enter your name!</p>
+
+        <form method="POST">
+            <input class="mail-input" type="email" name="email" autocomplete="off">
+            <input class="name-input" type="text" name="name" autocomplete="off">
+            <input class = "submit-button" type="submit" >
+        </form>
+        
+        <div id="<%=myAtrr%>">The sign up successful</div>
+        <div id="<%=myAtrr2%>">The sign up failed</div>
+
+
+
+
+    </div>
+
+
+    <!-- js and jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="/css/index.js" charset="utf-8"></script>
+</body>
+</html>
