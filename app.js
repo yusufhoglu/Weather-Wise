@@ -3,7 +3,7 @@ const express = require("express");
 const https = require("https");
 const bodyParser = require("body-parser");
 const app = express();
-const apiKey = process.env.MAILCHIMP;
+const apiKey = process.env.API_KEY;
 console.log(apiKey)
 
 
